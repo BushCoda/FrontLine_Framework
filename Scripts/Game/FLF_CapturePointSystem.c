@@ -17,12 +17,14 @@ class FLF_CapturePointComponent : ScriptedGameComponent
 {
 	protected FLF_E_CaptureState m_CaptureState = FLF_E_CaptureState.NEUTRAL;
 
-	override void OnInit(IEntity owner)
+	override protected void OnPostInit(IEntity owner)
 	{
+		super.OnPostInit(owner);
 		// TODO Phase 3: Initialise capture point state
+		SetEventMask(owner, EntityEvent.FRAME);
 	}
 
-	override void OnUpdate(IEntity owner, float timeSlice)
+	override void EOnFrame(IEntity owner, float timeSlice)
 	{
 		// TODO Phase 3: Handle capture progress logic
 	}

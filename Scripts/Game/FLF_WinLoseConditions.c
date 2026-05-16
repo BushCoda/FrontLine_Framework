@@ -7,8 +7,9 @@
 
 class FLF_WinLoseConditions : ScriptedGameComponent
 {
-	override void OnInit(IEntity owner)
+	override protected void OnPostInit(IEntity owner)
 	{
+		super.OnPostInit(owner);
 		// TODO Phase 8: Register HQ capture point listeners
 	}
 

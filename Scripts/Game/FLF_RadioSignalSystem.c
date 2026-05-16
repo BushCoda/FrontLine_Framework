@@ -9,8 +9,9 @@ class FLF_RadioSignalSystem : ScriptedGameComponent
 {
 	protected float m_SignalRadiusMeters = 1500.0;
 
-	override void OnInit(IEntity owner)
+	override protected void OnPostInit(IEntity owner)
 	{
+		super.OnPostInit(owner);
 		// TODO Phase 4: Initialise signal radius and register base
 	}
 

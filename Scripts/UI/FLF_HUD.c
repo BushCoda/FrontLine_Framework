@@ -7,8 +7,9 @@
 
 class FLF_HUD : ScriptedGameComponent
 {
-	override void OnInit(IEntity owner)
+	override protected void OnPostInit(IEntity owner)
 	{
+		super.OnPostInit(owner);
 		// TODO Phase 8: Initialise HUD elements
 	}
 

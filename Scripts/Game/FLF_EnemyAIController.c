@@ -7,8 +7,9 @@
 
 class FLF_EnemyAIController : ScriptedGameComponent
 {
-	override void OnInit(IEntity owner)
+	override protected void OnPostInit(IEntity owner)
 	{
+		super.OnPostInit(owner);
 		// TODO Phase 5: Initialise garrison groups at this base
 	}
 

@@ -7,8 +7,9 @@
 
 class FLF_FortificationSystem : ScriptedGameComponent
 {
-	override void OnInit(IEntity owner)
+	override protected void OnPostInit(IEntity owner)
 	{
+		super.OnPostInit(owner);
 		// TODO Phase 7: Initialise fortification system and connect to HQ terminal
 	}
 

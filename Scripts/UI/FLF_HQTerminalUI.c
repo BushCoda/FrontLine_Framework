@@ -7,8 +7,9 @@
 
 class FLF_HQTerminalUI : ScriptedGameComponent
 {
-	override void OnInit(IEntity owner)
+	override protected void OnPostInit(IEntity owner)
 	{
+		super.OnPostInit(owner);
 		// TODO Phase 7: Initialise HQ terminal UI layout
 	}
 

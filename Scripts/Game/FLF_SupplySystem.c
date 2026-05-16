@@ -10,8 +10,9 @@ class FLF_SupplySystem : ScriptedGameComponent
 	protected int m_SupplyPool = 0;
 	protected float m_GenerationRatePerMinute = 10.0;
 
-	override void OnInit(IEntity owner)
+	override protected void OnPostInit(IEntity owner)
 	{
+		super.OnPostInit(owner);
 		// TODO Phase 6: Initialise supply system and connect to HQ pool
 	}
 
