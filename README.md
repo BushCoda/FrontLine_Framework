@@ -2,10 +2,6 @@
 ### Arma Reforger — Conflict PvE Framework
 
 <p align="center">
-  <img src="assets/images/FLF_Logo.png" alt="FrontLine Framework Logo" width="300"/>
-</p>
-
-<p align="center">
   <img src="assets/images/FLF_LoadingScreen.png" alt="FrontLine Framework Banner"/>
 </p>
 
